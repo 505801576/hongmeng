@@ -4,7 +4,7 @@ class TaskDetails {
 }
 
 class DataList {
-  // actualArrivalTime: string = '2024-08-01' //实际到达时间
+  actualArrivalTime: string = '2024-08-01' //实际到达时间
   actualDepartureTime: string = '2024-08-01' //实际发车时间
   cargoPickUpPictureList: Array01 = new Array01() //提货凭证
   cargoPictureList: cargoPictureList = new cargoPictureList() //提货图片
